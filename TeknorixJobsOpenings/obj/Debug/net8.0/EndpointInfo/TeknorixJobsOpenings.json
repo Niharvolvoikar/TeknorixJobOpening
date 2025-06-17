@@ -88,17 +88,7 @@
         }
       }
     },
-    "/api/v1/jobs": {
-      "get": {
-        "tags": [
-          "JobOpenings"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
+    "/api/v1/jobs/Add": {
       "post": {
         "tags": [
           "JobOpenings"
@@ -129,7 +119,7 @@
         }
       }
     },
-    "/api/v1/jobs/{id}": {
+    "/api/v1/jobs/Update={id}": {
       "put": {
         "tags": [
           "JobOpenings"
@@ -169,27 +159,6 @@
             "description": "OK"
           }
         }
-      },
-      "get": {
-        "tags": [
-          "JobOpenings"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       }
     },
     "/api/v1/jobs/list": {
@@ -223,7 +192,7 @@
         }
       }
     },
-    "/api/v1/jobs/api/v1/jobs/{id}": {
+    "/api/v1/jobs/{id}": {
       "get": {
         "tags": [
           "JobOpenings"

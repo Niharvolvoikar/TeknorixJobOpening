@@ -18,15 +18,7 @@ namespace TeknorixJobsOpenings.Controllers
             this.dBContext = dBContext;
         }
 
-        //[Authorize]
-        [HttpGet]
-        public IActionResult GetJobopenings() 
-        {
-            var allopenings = dBContext.JobOpenings.ToList();
-            return Ok(allopenings);
-        }
-
-        [HttpPost]
+        [HttpPost("Add")]
         public async Task<IActionResult> AddJobOpening(AddJobOpeningDto addJobOpening)
         {
             try
@@ -59,7 +51,7 @@ namespace TeknorixJobsOpenings.Controllers
                 dBContext.JobOpenings.Add(jobOpening);
                 await dBContext.SaveChangesAsync();
 
-                return CreatedAtAction(nameof(GetJobOpeningById), new { id = jobOpening.Id }, jobOpening.Id);
+                return StatusCode(201, jobOpening.Id);
             }
             catch (Exception ex)
             {
@@ -71,7 +63,7 @@ namespace TeknorixJobsOpenings.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("Update={id}")]
         public async Task<IActionResult> UpdateJobOpening(int id, [FromBody] AddJobOpeningDto updatedJob)
         {
             try
@@ -154,8 +146,8 @@ namespace TeknorixJobsOpenings.Controllers
             }
         }
 
-        [HttpGet("api/v1/jobs/{id}")]
-        public async Task<IActionResult> GetJobOpeningByIdd(int id)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetJobOpeningById(int id)
         {
             try
             {
@@ -199,19 +191,5 @@ namespace TeknorixJobsOpenings.Controllers
             }
         }
 
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetJobOpeningById(int id)
-        {
-            var jobOpening = await dBContext.JobOpenings
-                .Include(j => j.Location)
-                .Include(j => j.Department)
-                .FirstOrDefaultAsync(j => j.Id == id);
-
-            if (jobOpening == null)
-                return NotFound();
-
-            return Ok(jobOpening);
-        }
     }
 }

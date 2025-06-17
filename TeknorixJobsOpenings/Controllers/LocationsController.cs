@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using TeknorixJobsOpenings.Modals.Entities;
 using TeknorixJobsOpenings.Data;
 using TeknorixJobsOpenings.Modals;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TeknorixJobsOpenings.Controllers
 {
@@ -17,6 +18,7 @@ namespace TeknorixJobsOpenings.Controllers
             this._context = context;
         }
 
+        //[Authorize]
         [HttpGet]
         public async Task<IActionResult> GetLocations()
         {
