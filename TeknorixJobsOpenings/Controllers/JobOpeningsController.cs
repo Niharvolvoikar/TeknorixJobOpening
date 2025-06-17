@@ -63,7 +63,7 @@ namespace TeknorixJobsOpenings.Controllers
             }
         }
 
-        [HttpPut("Update={id}")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateJobOpening(int id, [FromBody] AddJobOpeningDto updatedJob)
         {
             try
