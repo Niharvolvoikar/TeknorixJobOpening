@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "TeknorixJobsOpenings.Controllers.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TeknorixJobsOpenings.Controllers.DepartmentsController",
     "Method": "GetAllDepartments",
     "RelativePath": "api/v1/Departments",
@@ -161,7 +177,7 @@
     "Parameters": [
       {
         "Name": "location",
-        "Type": "TeknorixJobsOpenings.Modals.Entities.Location",
+        "Type": "TeknorixJobsOpenings.Modals.LocationinsertDto",
         "IsRequired": true
       }
     ],

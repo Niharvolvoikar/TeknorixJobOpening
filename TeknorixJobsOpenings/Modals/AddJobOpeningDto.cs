@@ -56,6 +56,15 @@ namespace TeknorixJobsOpenings.Modals
         public int Zip { get; set; }
     }
 
+    public class LocationinsertDto
+    {
+        public string Title { get; set; } = string.Empty;
+        public string City { get; set; } = string.Empty;
+        public string State { get; set; } = string.Empty;
+        public string Country { get; set; } = string.Empty;
+        public int Zip { get; set; }
+    }
+
     public class DepartmentDto
     {
         public int Id { get; set; }

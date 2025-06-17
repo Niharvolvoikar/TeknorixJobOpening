@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TeknorixJobsOpenings.Data;
@@ -17,6 +18,7 @@ namespace TeknorixJobsOpenings.Controllers
             this.dBContext = dBContext;
         }
 
+        //[Authorize]
         [HttpGet]
         public IActionResult GetJobopenings() 
         {

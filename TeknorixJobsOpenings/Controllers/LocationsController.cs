@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using TeknorixJobsOpenings.Modals.Entities;
 using TeknorixJobsOpenings.Data;
+using TeknorixJobsOpenings.Modals;
 
 namespace TeknorixJobsOpenings.Controllers
 {
@@ -13,24 +14,32 @@ namespace TeknorixJobsOpenings.Controllers
 
         public LocationsController(ApplicationDBContext context)
         {
-            _context = context;
+            this._context = context;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetLocations()
         {
-            var locations = await _context.Locations.ToListAsync();
+            var locations = await _context.Location.ToListAsync();
             return Ok(locations);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateLocation([FromBody] Location location)
+        public async Task<IActionResult> CreateLocation([FromBody] LocationinsertDto location)
         {
             try
             {
-                _context.Locations.Add(location);
+                var locationInsert = new Location()
+                {
+                    Country = location.Country,
+                    City = location.City,
+                    State = location.State,
+                    Title = location.Title,
+                    Zip = location.Zip, 
+                };
+                _context.Location.Add(locationInsert);
                 await _context.SaveChangesAsync();
-                return CreatedAtAction(nameof(GetLocations), new { id = location.Id }, location);
+                return Ok(location);
             }
             catch (Exception ex)
             {
@@ -41,7 +50,7 @@ namespace TeknorixJobsOpenings.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateLocation(int id, [FromBody] Location updatedLocation)
         {
-            var location = await _context.Locations.FindAsync(id);
+            var location = await _context.Location.FindAsync(id);
             if (location == null)
                 return NotFound();
 

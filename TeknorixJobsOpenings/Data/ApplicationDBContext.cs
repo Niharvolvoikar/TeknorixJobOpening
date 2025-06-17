@@ -11,7 +11,7 @@ namespace TeknorixJobsOpenings.Data
         }
 
         public DbSet<JobOpening> JobOpenings { get; set; }
-        public DbSet<Department> Departments { get; set; }
-        public DbSet<Location> Locations { get; set; }
+        public DbSet<Department> Department { get; set; }
+        public DbSet<Location> Location { get; set; }
     }
 }

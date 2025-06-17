@@ -20,7 +20,7 @@ namespace TeknorixJobsOpenings.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllDepartments()
         {
-            var departments = await _context.Departments
+            var departments = await _context.Department
                 .Select(d => new
                 {
                     d.Id,
@@ -37,7 +37,7 @@ namespace TeknorixJobsOpenings.Controllers
                 return BadRequest(new { Message = "Title is required." });
 
             var department = new Department { Title = model.Title };
-            _context.Departments.Add(department);
+            _context.Department.Add(department);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetAllDepartments), new { id = department.Id }, department);
@@ -46,7 +46,7 @@ namespace TeknorixJobsOpenings.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateDepartment(int id, [FromBody] Department model)
         {
-            var department = await _context.Departments.FindAsync(id);
+            var department = await _context.Department.FindAsync(id);
             if (department == null)
                 return NotFound(new { Message = $"Department with ID {id} not found." });
 

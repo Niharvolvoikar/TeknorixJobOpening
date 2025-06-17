@@ -138,3 +138,5 @@ C:\NIHAR\Teknorix\TeknorixJobsOpenings\TeknorixJobsOpenings\obj\Debug\net8.0\ref
 C:\NIHAR\Teknorix\TeknorixJobsOpenings\TeknorixJobsOpenings\obj\Debug\net8.0\TeknorixJobsOpenings.pdb
 C:\NIHAR\Teknorix\TeknorixJobsOpenings\TeknorixJobsOpenings\obj\Debug\net8.0\TeknorixJobsOpenings.genruntimeconfig.cache
 C:\NIHAR\Teknorix\TeknorixJobsOpenings\TeknorixJobsOpenings\obj\Debug\net8.0\ref\TeknorixJobsOpenings.dll
+C:\NIHAR\Teknorix\TeknorixJobsOpenings\TeknorixJobsOpenings\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\NIHAR\Teknorix\TeknorixJobsOpenings\TeknorixJobsOpenings\obj\Debug\net8.0\TeknorixJobsOpenings.sourcelink.json

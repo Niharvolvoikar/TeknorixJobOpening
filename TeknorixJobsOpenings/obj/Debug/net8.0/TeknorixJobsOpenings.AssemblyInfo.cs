@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeknorixJobsOpenings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+078cf16af3cac7c1814f35e7091dfef3d50926c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeknorixJobsOpenings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeknorixJobsOpenings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
