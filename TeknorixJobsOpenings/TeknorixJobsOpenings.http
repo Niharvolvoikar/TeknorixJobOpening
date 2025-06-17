@@ -1,0 +1,6 @@
+@TeknorixJobsOpenings_HostAddress = http://localhost:5029
+
+GET {{TeknorixJobsOpenings_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

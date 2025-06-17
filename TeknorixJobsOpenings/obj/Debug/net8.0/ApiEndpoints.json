@@ -1,0 +1,212 @@
+[
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.DepartmentsController",
+    "Method": "GetAllDepartments",
+    "RelativePath": "api/v1/Departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.DepartmentsController",
+    "Method": "CreateDepartment",
+    "RelativePath": "api/v1/Departments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TeknorixJobsOpenings.Modals.Entities.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.DepartmentsController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/v1/Departments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "TeknorixJobsOpenings.Modals.Entities.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.JobOpeningsController",
+    "Method": "GetJobopenings",
+    "RelativePath": "api/v1/jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.JobOpeningsController",
+    "Method": "AddJobOpening",
+    "RelativePath": "api/v1/jobs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addJobOpening",
+        "Type": "TeknorixJobsOpenings.Modals.AddJobOpeningDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.JobOpeningsController",
+    "Method": "UpdateJobOpening",
+    "RelativePath": "api/v1/jobs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedJob",
+        "Type": "TeknorixJobsOpenings.Modals.AddJobOpeningDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.JobOpeningsController",
+    "Method": "GetJobOpeningById",
+    "RelativePath": "api/v1/jobs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.JobOpeningsController",
+    "Method": "GetJobOpeningByIdd",
+    "RelativePath": "api/v1/jobs/api/v1/jobs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.JobOpeningsController",
+    "Method": "GetJobList",
+    "RelativePath": "api/v1/jobs/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeknorixJobsOpenings.Modals.JobListRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.LocationsController",
+    "Method": "GetLocations",
+    "RelativePath": "api/v1/Locations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.LocationsController",
+    "Method": "CreateLocation",
+    "RelativePath": "api/v1/Locations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "TeknorixJobsOpenings.Modals.Entities.Location",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.LocationsController",
+    "Method": "UpdateLocation",
+    "RelativePath": "api/v1/Locations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedLocation",
+        "Type": "TeknorixJobsOpenings.Modals.Entities.Location",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeknorixJobsOpenings.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TeknorixJobsOpenings.WeatherForecast, TeknorixJobsOpenings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

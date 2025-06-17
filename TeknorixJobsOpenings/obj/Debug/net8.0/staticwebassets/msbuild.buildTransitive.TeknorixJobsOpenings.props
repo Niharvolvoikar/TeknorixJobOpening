@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TeknorixJobsOpenings.props" />
+</Project>

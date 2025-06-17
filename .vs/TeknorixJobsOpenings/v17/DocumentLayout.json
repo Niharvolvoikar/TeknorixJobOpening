@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\controllers\\jobopeningscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\controllers\\jobopeningscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\modals\\entities\\jobopenings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\modals\\entities\\jobopenings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|c:\\nihar\\teknorix\\teknorixjobsopenings\\teknorixjobsopenings\\modals\\addjobopeningdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAD1506-4099-49CB-AF12-0CB6A24E5B14}|TeknorixJobsOpenings\\TeknorixJobsOpenings.csproj|solutionrelative:teknorixjobsopenings\\modals\\addjobopeningdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\appsettings.json",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\appsettings.json",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\appsettings.json",
+              "RelativeToolTip": "TeknorixJobsOpenings\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T18:49:28.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "TeknorixJobsOpenings\\Controllers\\LocationsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:41:55.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "TeknorixJobsOpenings\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:39:49.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddJobOpeningDto.cs",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Modals\\AddJobOpeningDto.cs",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\Modals\\AddJobOpeningDto.cs",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Modals\\AddJobOpeningDto.cs",
+              "RelativeToolTip": "TeknorixJobsOpenings\\Modals\\AddJobOpeningDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:14:09.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobOpeningsController.cs",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Controllers\\JobOpeningsController.cs",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\Controllers\\JobOpeningsController.cs",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Controllers\\JobOpeningsController.cs",
+              "RelativeToolTip": "TeknorixJobsOpenings\\Controllers\\JobOpeningsController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwGQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:49:24.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobOpenings.cs",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Modals\\Entities\\JobOpenings.cs",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\Modals\\Entities\\JobOpenings.cs",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Modals\\Entities\\JobOpenings.cs",
+              "RelativeToolTip": "TeknorixJobsOpenings\\Modals\\Entities\\JobOpenings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:28:03.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Program.cs",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\Program.cs",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Program.cs",
+              "RelativeToolTip": "TeknorixJobsOpenings\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:19:26.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "TeknorixJobsOpenings\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\NIHAR\\Teknorix\\TeknorixJobsOpenings\\TeknorixJobsOpenings\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "TeknorixJobsOpenings\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:13:38.622Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 65,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
